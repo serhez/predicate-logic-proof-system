@@ -9,6 +9,7 @@ struct tableau {
     struct tableau* parent;
 } *tab, *node, *node1, *kid, *pa;
 
+void printTableau(struct tableau* t);
 char* getSubformulaOf(char* g, int start, int length);
 int getBinaryConnectiveOf(char* g);
 int parse(char* g);
